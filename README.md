@@ -7,6 +7,7 @@ This is a mobile-first offline application built with Flutter for use by profess
 - **Total Alkalinity (TA)**
 - **Calcium Hardness (CH)**
 - **Cyanuric Acid (CYA)**
+- **Salt**
 
 Each result is shown in a clean, color-coded UI designed for fast visual scanning in the field. Calculations are based on real-world product dosing from industry-standard chemicals (like Balance Pak, Super Shock, Muriatic Acid, etc.).
 
@@ -46,7 +47,7 @@ If you would like to request permission to feature or discuss this project publi
 
 ## 📷 UI Preview
 
-![Result Screen Preview](preview.png)  
+![Result Screen Preview](ResultScreenDemo.png)  
 _Above: Sample result screen with chlorine alert and other metrics in a grid layout._
 
 ---
