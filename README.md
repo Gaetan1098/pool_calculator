@@ -47,7 +47,7 @@ If you would like to request permission to feature or discuss this project publi
 
 ## 📷 UI Preview
 ![Input Screen Preview](InputPageDemo.png)  
-_Above: Sample result screen with chlorine alert and other metrics in a grid layout._
+_Above: Sample Input screen with input fields._
 
 
 ![Result Screen Preview](ResultsPageDemo.png)  
