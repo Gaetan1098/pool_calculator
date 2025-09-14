@@ -1,0 +1,106 @@
+App Design Specification
+
+1. Overview
+
+This document outlines the design details for the Offline Pool Calculator mobile app, including color palette, typography, component breakdown, and screen layouts.
+
+2. Color Palette
+
+Background: #FAFAFA
+
+Primary: #2196F3 (Blue)
+
+Accent: #26C6DA (Teal)
+
+Low Status: #EF9A9A (Red)
+
+Ideal Status: #A5D6A7 (Green)
+
+High Status: #FFCC80 (Orange)
+
+Text: #212121 (Dark Gray)
+
+3. Typography
+
+Headers: Roboto, 20sp, Bold
+
+Body: Roboto, 16sp, Regular
+
+Labels: Roboto, 14sp, Medium
+
+4. Components
+
+4.1 Text Field
+
+Outline border, 2dp stroke idle, 3dp stroke focus
+
+Unique outline color per field:
+
+Volume: #42A5F5
+
+pH: #66BB6A
+
+Chlorine: #EF5350
+
+Alkalinity: #FFA726
+
+Calcium Hardness: #AB47BC
+
+CYA: #26C6DA
+
+4.2 Button
+
+ElevatedButton with primary background #2196F3 and white text
+
+4.3 Result Card
+
+Rounded card with colored border and 30% opaque background matching status color
+
+Status icon on leading edge:
+
+Low: downward arrow
+
+Ideal: check mark
+
+High: upward arrow
+
+5. Screen Layouts
+
+5.1 Input Screen
+
+Vertical list of fields in order:
+
+Volume
+
+pH
+
+Chlorine
+
+Alkalinity
+
+Calcium Hardness
+
+CYA
+
+Calculate button pinned to bottom
+
+5.2 Result Screen
+
+AppBar with back arrow
+
+Scrollable list of cards for each parameter in same order
+
+Each card displays:
+
+Parameter name & current value
+
+Status icon
+
+Recommendation text
+
+6. Next Steps
+
+Iterate on mockups based on feedback
+
+Finalize asset export for Flutter implementation
+

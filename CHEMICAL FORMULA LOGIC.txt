@@ -1,0 +1,42 @@
+CHEMICAL FORMULA LOGIC:
+
+PH: 0-14
+Ideal range = 7.2-7.8
+If over 7.8 use Muriatic Acid 31.45% to lower
+dosage in L = 0.0000132 x pool volume x (current ph - 7.2)
+If under 7.2 use Balance Pak 200 to increase
+dosage in Kg = 0.00004 x pool volume x (7.5 - current ph)
+WILL CONSIDER TA LATER (acid demand test)
+
+CHLORINE: non negative
+ideal range 3ppm-7.5ppm
+If under 3ppm use super shock to increase
+dosage in bags = upper limit of (pool volume x 0.015) / 400g upper limit
+If over 7.5 use chlor-out to lower
+dosage = pool volume x (current chlorine - 5) x 0.001
+
+
+TA: non negative
+ideal range 80-120ppm
+if under 80 use Balance Pak 100 to increase
+dosage = pool volume x (120 - current TA) x 0.0018
+if over 120 use Muriatic Acid to lower
+dosage = pool volume x (current TA - 90) x 0.0008 
+WILL CONSIDER CYA AND PH LATER
+
+CALCIUM: non negative
+ideal range 200-400 for concrete
+ideal range 150-250 for vinyl
+focus on concrete only for now to increase
+if under 200 use Balance Pak 300
+dosage = pool volume x (200 - current calcium) x 0.0015
+if over 400 backwash for a while
+
+CYA: non negative
+ideal range 30-50 for chlorine pools
+ideal range 60-80 for salt water pools
+WILL DO SALT LATER
+if under 30 use stabilizer
+dosage = pool volume x (50 - current cya) x 0.001
+if over 50 backwash for a while
+
